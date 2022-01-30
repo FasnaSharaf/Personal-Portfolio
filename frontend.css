@@ -1,0 +1,90 @@
+*[data-module=text] ul {
+    list-style: none;
+    padding: 0;
+  }
+  *[data-module=text] ul li {
+    padding-left: 38px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  *[data-module="text"] ul li::before,
+  *[data-module="text"] ul.check li::before {
+      content: "\f00c";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="text"] ul.minus li::before {
+      content: "\f068";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="text"] ul.square li::before {
+      content: "\f04d";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="text"] ul.circle li::before {
+      content: "\f10c";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="text"] ul.star li::before {
+      content: "\f005";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="text"] ul.dots li::before {
+      content: "\f141";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="text"] ul.arrow li::before {
+      content: "\f054";
+      color: #3a3a3a;
+      margin-right: 10px;
+      font-family: 'FontAwesome';
+      margin-left:-27px;
+      font-style: normal;
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      float: left;
+  }
+  *[data-module="title"] {
+      word-wrap: break-word;
+  }

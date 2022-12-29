@@ -14,6 +14,5 @@ Project is created with:
 * Javascript
 	
 ## Setup
-To run this project, just clone it and open the project in VS code and click run.
+To run this project, just clone it and open the project in VS code and click run. (Link: https://fasnasharaf.github.io/)
 
-## Link: https://fasnasharaf.github.io/
